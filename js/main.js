@@ -37,7 +37,7 @@ $(document).ready(function() {
 
 
 
-    // $("#autoplay").backstretch("/img/1.jpg");
+  
 
 
 
