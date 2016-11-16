@@ -37,7 +37,16 @@ $(document).ready(function() {
 
 
 
-  
+    $('.hero').bgswitcher({
+        images: ["img/bg/1.jpg","img/bg/2.jpg","img/bg/3.jpg","img/bg/4.jpg","img/bg/5.jpg","img/bg/6.jpg","img/bg/7.jpg","img/bg/8.jpg","img/bg/9.jpg","img/bg/10.jpg","img/bg/11.jpg","img/bg/12.jpg",],
+        effect: "fade",
+        interval: 4000
+});
+
+
+
+
+
 
 
 
