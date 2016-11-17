@@ -25,6 +25,26 @@
 */
 
 
+/*  colors  */
+
+.orange{
+  color: rgb(238,113,35);
+}
+
+.green{
+  color: rgb(105,180,48);
+}
+
+.blue{
+  color: rgb(50,78,157);
+}
+.grey{
+  color: rgb(92,92,92);
+}
+
+
+
+
 
 
 
@@ -378,7 +398,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 }
 
 .services .title{
-	color: #454545;
+	/*color: #454545;*/
 	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
