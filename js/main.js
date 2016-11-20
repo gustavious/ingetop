@@ -97,7 +97,7 @@ function unhover(element) {
 }
 
 function toggle(element) {
-    // console.log(element.src);
+    console.log(element.src);
     var e = element.split(".");
-    return e[0];
+    return e[1];
 }
