@@ -12,7 +12,10 @@ $(document).ready(function() {
         pagination: ".pagination",
         responsive: true,
         scroll: {
-            fx: 'fade'
+            fx: 'fade',
+           duration         : 1000,
+           pauseOnHover     : true
+
         },
         items: {
             visible: 1,
@@ -38,13 +41,10 @@ $(document).ready(function() {
 
 
     $('.hero').bgswitcher({
-        images: ["img/bg/1.jpg","img/bg/2.jpg","img/bg/3.jpg","img/bg/4.jpg","img/bg/5.jpg","img/bg/6.jpg","img/bg/7.jpg","img/bg/8.jpg","img/bg/9.jpg","img/bg/10.jpg","img/bg/11.jpg","img/bg/12.jpg",],
+        images: ["img/bg/1.jpg","img/bg/2.jpg","img/bg/3.jpg","img/bg/4.jpg"],
         effect: "fade",
-        interval: 4000
+        interval: 3000
 });
-
-
-
 
 
 
@@ -83,3 +83,21 @@ $(document).ready(function() {
     });
 
 });
+
+
+function hover(element) {
+  // console.log(element.src);
+  var x = toggle(element.src);
+    element.setAttribute('src', x + '.1.svg');
+}
+function unhover(element) {
+    // console.log(element.src);
+    var x = toggle(element.src);
+    element.setAttribute('src', x + '.svg');
+}
+
+function toggle(element) {
+    // console.log(element.src);
+    var e = element.split(".");
+    return e[0];
+}

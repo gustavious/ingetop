@@ -45,7 +45,7 @@
                         <ul class="right">
                             <li><a href="#testimonials">¿Quienes somos?</a></li>
                             <li><a href="#services">Servicios</a></li>
-                            <li><a href="#connect">¿Por que ingetop?</a></li>
+                            <li><a href="#why">¿Por que ingetop?</a></li>
                             <li><a href="#connect">Contacto</a></li>
                         </ul>
                     </section>
@@ -81,7 +81,7 @@
 
         <section>
             <div class="row">
-                <h1 class="mean_title orange" display="inline">QUIÉNES SOMOS</h1>
+                <span class="mean_title orange" >QUIÉNES</span><span class="mean_title"> SOMOS </span>
                 <h2 class="sub_title">QUEREMOS QUE CONOZCAS NUESTRA EMPRESA</h2>
                 <br><br><br>
             </div>
@@ -94,22 +94,22 @@
                 <div id="carousel">
 
                     <div class="tesimonial">
-                        <img src="img/mashable.jpg" title="" alt="">
+                        <!-- <img src="img/mashable.jpg" title="" alt=""> -->
                         <span class="name orange">Sobre INGETOP</span>
-                        <p>Brindamos Somos una empresa con más de 30 años de experiencia en el campo de la ingeniería y construcción, con un amplio portafolio de servicios que aseguran la solidez de la empresa creando valor y confiabilidad a nuestros clientes,
+                        <p>Somos una empresa con más de 30 años de experiencia en el campo de la ingeniería y construcción, con un amplio portafolio de servicios que aseguran la solidez de la empresa creando valor y confiabilidad a nuestros clientes,
                             socios y talento humano.</p>
 
                     </div>
 
                     <div class="tesimonial">
-                        <img src="img/mashable.jpg" title="" alt="">
+                        <!-- <img src="img/mashable.jpg" title="" alt=""> -->
                         <span class="name orange">Misión</span>
                         <p>Brindamos servicios especializados en el sector de la construcción, siendo visionarios e innovadores, considerando la calidad y cuidado del medio ambiente en nuestros proyectos.</p>
 
                     </div>
 
                     <div class="tesimonial">
-                        <img src="img/mashable.jpg" title="" alt="">
+                        <!-- <img src="img/mashable.jpg" title="" alt=""> -->
                         <span class="name orange">Visión</span>
                         <p>Posicionarse dentro de las mejores empresas nacionales de movimiento de tierras, pilotajes y alquiler de maquinaria, aliada a las más grandes empresas de construcción del país.</p>
 
@@ -138,42 +138,33 @@
 
 
 
-
-
-
-
+    <section class="quote" id="services">
+        <blockquote>
+            <p><span class="blue">SOLUCIONES PARA </span><span class="strong"> TRANSFORMAR</span> </p>
+            <hr/>
+            <span class="author">Queremos que conozcas nuestro completo portafolio de servicios</span>
+        </blockquote>
+    </section>
 
 
 
     <!--  Start Services Section  -->
-    <section class="services" id="services">
-
-        <!--    Start Services Titles    -->
-        <div class="row">
-            <h1 class="mean_title">SOLUCIONES PARA TRANSFORMAR</h1>
-            <h2 class="sub_title">QUEREMOS QUE CONOZCAS NUESTRO COMPLETO PORTAFOLIO DE SERVICIOS</h2>
-        </div>
-        <!--    End Services Titles    -->
+    <section class="services" >
 
 
 
 
         <!--    Servicios   -->
-        <!--    Servicios   -->
-        <!--    Servicios   -->
-        <!--    Servicios   -->
-        <!--    Servicios   -->
-        <!--    Servicios   -->
-
 
 
         <div class="row services_list">
             <div class="small-4 large-4 columns">
-                <img src="img/servicios/1.svg" alt="" title="" class="serv_icon" data-reveal-id="pilotajesModal" width="70%" height="70%" />
+                <img src="img/servicios/1.svg" alt="" title="" class="serv_icon" data-reveal-id="pilotajesModal" width="70%" height="70%" onmouseover="hover(this);" onmouseout="unhover(this);" />
+
                 <h2 class="title blue">Perforación de pilotes y micropilotes</h2>
             </div>
             <div id="pilotajesModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2>Perforación de pilotes y micropilotes</h2>
+                <h2 class="blue" >Perforación de pilotes y micropilotes</h2>
                 <p class="lead">Equipos idóneos para el proceso de perforación de todo tipo de suelos, ofreciendo, también, el retiro del material con bajos costos, rendimiento y puntualidad.</p>
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div>
@@ -181,11 +172,11 @@
 
 
             <div class="small-4 large-4 columns">
-                <img src="img/servicios/2.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="viasModal" />
+                <img src="img/servicios/2.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="viasModal" onmouseover="hover(this);" onmouseout="unhover(this);" />
                 <h2 class="title blue">Construcción de vías y obra civil</h2>
             </div>
             <div id="viasModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2 id="modalTitle">Construcción de vías y obra civil</h2>
+                <h2 class="blue" id="modalTitle">Construcción de vías y obra civil</h2>
                 <p class="lead">Amplia experiencia en proyectos como vivienda, bodegas y construcción de vías, cumpliendo rigurosamente con los tiempos y plazos presupuestados, dando valor a nuestros clientes con altos estándares de calidad.
                 </p>
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
@@ -193,11 +184,11 @@
 
 
             <div class="small-4 large-4 columns">
-                <img src="img/servicios/3.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="tierrasModal" />
+                <img src="img/servicios/3.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="tierrasModal" onmouseover="hover(this);" onmouseout="unhover(this);"/>
                 <h2 class="title blue">Movimiento de tierras</h2>
             </div>
             <div id="tierrasModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2>Movimiento de tierras</h2>
+                <h2 class="blue" >Movimiento de tierras</h2>
                 <p class="lead">Movimiento de tierras in situ (al interior de la obra) y ex situ (por fuera de la obra), con equipos propios y personal capacitado para excavaciones, traslado de tierras, movimiento de materiales pétreos, relleno de fosos, perforación
                     de pozos de agua, túneles, entre otros.
                 </p>
@@ -224,11 +215,11 @@
 
 
             <div class="small-4 large-4 columns">
-                <img src="img/servicios/5.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="excavacionesModal" />
+                <img src="img/servicios/5.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="excavacionesModal" onmouseover="hover(this);" onmouseout="unhover(this);"/>
                 <h2 class="title blue">Excavaciones</h2>
             </div>
             <div id="excavacionesModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2>Excavaciones</h2>
+                <h2 class="blue" >Excavaciones</h2>
                 <p class="lead">INGETOP cuenta con la experiencia, los equipos, el conocimiento y el capital humano capacitado para excavaciones como sótanos, semisótanos, descapotes, entre otros.
                 </p>
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
@@ -236,11 +227,11 @@
 
 
             <div class="small-4 large-4 columns">
-                <img src="img/servicios/6.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="demolicionesModal" />
+                <img src="img/servicios/6.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="demolicionesModal" onmouseover="hover(this);" onmouseout="unhover(this);"/>
                 <h2 class="title blue">Demoliciones</h2>
             </div>
             <div id="demolicionesModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2>Demoliciones</h2>
+                <h2 class="blue" >Demoliciones</h2>
                 <p class="lead">Contamos con equipo como retroexcavadoras con martillo, pajaritas, cargadores, volquetas sencillas y dobles, idóneas para demoliciones en edificaciones de todo tipo.
                 </p>
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
@@ -248,11 +239,11 @@
 
 
             <div class="small-4 large-4 columns">
-                <img src="img/servicios/7.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="mayorModal" />
+                <img src="img/servicios/7.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="mayorModal" onmouseover="hover(this);" onmouseout="unhover(this);"/>
                 <h2 class="title blue">Alquiler de equipo mayor</h2>
             </div>
             <div id="mayorModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2>Alquiler de equipo mayor</h2>
+                <h2 class="blue" >Alquiler de equipo mayor</h2>
                 <p class="lead">Amplia variedad de maquinaria pesada al servicio del sector de la construcción, suministrando equipos de calidad de manera oportuna.
                 </p>
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
@@ -265,37 +256,37 @@
         <div class="row services_list">
 
             <div class="small-4 large-4 columns">
-                <img src="img/servicios/4.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="matModal" />
+                <img src="img/servicios/4.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="matModal" onmouseover="hover(this);" onmouseout="unhover(this);"/>
                 <h2 class="title blue">Suministro de materiales pétreos</h2>
             </div>
             <div id="matModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2>Suministro de materiales pétreos</h2>
+                <h2 class="blue" >Suministro de materiales pétreos</h2>
                 <p class="lead">• Alianzas estratégicas con las diferentes canteras del país para obtener menores costos y ahorro en fletes.
                     <br>• Materiales pétreos certificados y seleccionados para rellenos, bases y subases.
                     <br>• Asfaltos, fresados, cementos, hormigones, entre otros.
                 </p>
                 <h2>Canteras aliadas</h2>
-                <img src="img/servicios/allies.png"  />
+                <img src="img/servicios/allies.png" />
 
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div>
 
             <div class="small-4 large-4 columns">
-                <img src="img/servicios/8.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="menModal" />
+                <img src="img/servicios/8.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="menModal" onmouseover="hover(this);" onmouseout="unhover(this);"/>
                 <h2 class="title blue">Alquiler de equipo menor</h2>
             </div>
             <div id="menModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2>Alquiler de equipo menor</h2>
+                <h2 class="blue" >Alquiler de equipo menor</h2>
                 <p class="lead">Gran variedad de equipo menor para las diferentes etapas de la construcción de obras civiles.</p>
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div>
 
             <div class="small-4 large-4 columns">
-                <img src="img/servicios/9.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="retModal" />
+                <img src="img/servicios/9.svg" alt="" title="" class="serv_icon" width="70%" height="70%" data-reveal-id="retModal" onmouseover="hover(this);" onmouseout="unhover(this);"/>
                 <h2 class="title blue">Retiro de escombros</h2>
             </div>
             <div id="retModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2>Retiro de escombros</h2>
+                <h2 class="blue" >Retiro de escombros</h2>
                 <p class="lead">• Recogemos escombros, material vegetal, basuras, reciclaje, entre otros, de forma efectiva y segura.
                     <br>• Contamos con alianzas en diferentes botaderos certificados de la ciudad.
                 </p>
@@ -320,9 +311,9 @@
 
 
     <!--  Start Quote Section  -->
-    <section class="quote">
+    <section class="quote" id="why">
         <blockquote>
-            <p>POR QUÉ ESCOGER A <span class="strong"> INGETOP</span> </p>
+            <p><span class="orange">POR QUÉ ESCOGER A </span><span class="strong"> INGETOP</span> </p>
             <hr/>
             <span class="author">QUEREMOS QUE CONZCAS MÁS ACERCA DE NUESTRO SERVICIO</span>
         </blockquote>
@@ -335,25 +326,65 @@
     <section class="cta" id="Download">
         <div class="row">
 
-          <img src="img/why.png" />
+            <img src="img/why.png" />
 
             <!--    Start CTA Titles    -->
-            <h1 class="title">Calidad en los proyectos</h1>
+
+            <div class="row services_list">
+                <div class="small-6 large-6 columns">
+                    <h1 class="title"><span class="orange">Calidad</span> en los proyectos</h1>
+                    <p class="sub_title">
+                        • Resultados eficientes y oportunos para su entera satisfacción.
+                  <br />
+                        • Nuestro equipo es altamente calificado.<br> • Nuestros materiales cumplen con todos los estándares ambientales.</p>
+                </div>
+
+                <div class="small-6 large-6 columns">
+                    <h1 class="title"><span class="orange">Atención</span> al cliente</h1>
+                    <p class="sub_title">
+                      •	Constante relación y comunicación con nuestros clientes: asesorando, informando, reportando y entregando los procesos, avances de obra y conclusión de los proyectos.
+                  <br />
+                      •	Garantía posventa.</p>
+                </div>
+            </div>
+
+            <div class="row services_list">
+                <div class="small-12 large-12 columns">
+                    <h1 class="title">Cuidado del <span class="green">medio ambiente</span></h1>
+                    <p class="sub_title">
+                      •	Certificaciones de calidad para la explotación legal de nuestros materiales.
+                  <br />
+                      •	Aliados para la disposición adecuada de residuos de construcción.<br>•	Hacemos remediación de capas vegetales para la conservación del medio ambiente.</p>
+                </div>
+
+
+            </div>
+
+            <div class="row services_list">
+                <div class="small-6 large-6 columns">
+                    <h1 class="title"><span class="orange">Equipos</span> propios</h1>
+                    <p class="sub_title">
+                      •	Flota de vehículos, con vida no mayor a 3 años, que cumplen con todos los estándares de calidad para trabajar en constructoras, pozos petroleros o lugares de altas exigencias.
+                  <br />
+                  •	Conductores ampliamente calificados para la operación de los equipos, con constantes capacitaciones para el manejo de la maquinaria, personal y atención al cliente.</p>
+
+                </div>
+
+                <div class="small-6 large-6 columns">
+                    <h1 class="title"><span class="orange">Alianzas</span> estratégicas</h1>
+                    <p class="sub_title">
+                      •	Alianzas estratégicas a nivel nacional para la respuesta inmediata y ahorro en fletes en la distribución de materiales, personal y equipos para cualquier proyecto en el país.</p>
+                </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
 
             <!--    End CTA Titles    -->
-
-            <!--    Start Button    -->
-            <a href="#" class="btn_fancy">
-                <div class="solid_layer"></div>
-                <div class="border_layer"></div>
-                <div class="text_layer">Contactanos</div>
-            </a>
-            <!--    End Button    -->
-
-        </div>
-    </section>
-    <!--  End Call To Action Section  -->
-
 
 
 
@@ -452,22 +483,22 @@
 
             <div class="small-12 medium-8 large-8 columns">
                 <div class="contact_details right">
-                    <nav class="social">
+                    <!-- <nav class="social">
                         <ul class="no-bullet">
                             <li><a href="http://facebook.com/" target="_blank">Facebook</a></li>
                             <li><a href="http://instagram.com/" target="_blank">Instagram</a></li>
                             <li><a href="http://twitter.com/" target="_blank">Twitter</a></li>
                             <li><a href="http://plus.google.com/+Hola chicos" target="_blank">Google+</a></li>
                         </ul>
-                    </nav>
+                    </nav> -->
 
                     <div class="contact">
                         <div class="details">
-                            <p>support@ingetop.com</p>
-                            <p>3166420466</p>
+                            <p>comercial@ingetop.com</p>
+
                         </div>
 
-                        <p class="adress">Direccion</p>
+                        <p class="adress">Calle 164 #19-09</p>
                     </div>
                 </div>
             </div>
@@ -477,10 +508,9 @@
     <!--  End Footer Section  -->
 
     <!--    Start Back To Top    -->
-    <a href="#" class="btn_fancy" id="back_top">
-        <div class="solid_layer"></div>
-        <div class="border_layer"></div>
-        <div class="text_layer"><img src="img/arrow.svg" alt="Back to top" title="" class="top_arrow" width="50" height="50"></div>
+    <a href="#" id="back_top">
+
+        <div class="text_layer"><img src="img/arrow.svg" alt="Back to top" title="" class="top_arrow" width="80" height="80"></div>
     </a>
     <!--    End Back To Top    -->
 
@@ -505,7 +535,7 @@
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
     <!-- <script type="text/javascript" src="cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script> -->
-  <script type="text/javascript" src="js/jquery.bgswitcher.js"></script>
+    <script type="text/javascript" src="js/jquery.bgswitcher.js"></script>
 
 
 </body>

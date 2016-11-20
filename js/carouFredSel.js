@@ -206,9 +206,9 @@
 					default:
 						opts.align = false;
 						opts.usePadding = (
-							opts.padding[0] == 0 && 
-							opts.padding[1] == 0 && 
-							opts.padding[2] == 0 && 
+							opts.padding[0] == 0 &&
+							opts.padding[1] == 0 &&
+							opts.padding[2] == 0 &&
 							opts.padding[3] == 0
 						) ? false : true;
 						break;
@@ -221,7 +221,7 @@
 			}
 			if (is_undefined(opts.scroll.items))
 			{
-				opts.scroll.items = (opts.responsive || opts.items.visibleConf.variable || opts.items.filter != '*') 
+				opts.scroll.items = (opts.responsive || opts.items.visibleConf.variable || opts.items.filter != '*')
 					? 'visible'
 					: opts.items.visible;
 			}
@@ -1454,7 +1454,7 @@
 					crsl.isScrolling = false;
 					clbk.onAfter = sc_fireCallbacks($tt0, sO, 'onAfter', cb_arguments, clbk);
 					queu = sc_fireQueue($cfs, queu, conf);
-					
+
 					if (!crsl.isPaused)
 					{
 						$cfs.trigger(cf_e('play', conf));
@@ -1735,7 +1735,7 @@
 				dev = a[3];
 
 				if (is_object(itm) && !is_jquery(itm))
-				{ 
+				{
 					itm = $(itm);
 				}
 				else if (is_string(itm))
@@ -1838,7 +1838,7 @@
 					$removed = $();
 					num.each(function(i, el) {
 						var $rem = $cfs.trigger(cf_e('removeItem', conf), [$(this), org, dev]);
-						if ( $rem ) 
+						if ( $rem )
 						{
 							$removed = $removed.add($rem);
 						}
@@ -1926,7 +1926,7 @@
 				{
 					nr = max;
 				}
-				else 
+				else
 				{
 					 nr = Math.round((itms.total-itms.first)/ipp);
 				}
@@ -2460,7 +2460,7 @@
 					{
 						$wrp.unbind(cf_e('mousewheel', conf, false));
 					}
-					$wrp.bind(cf_e('mousewheel', conf, false), function(e, delta) { 
+					$wrp.bind(cf_e('mousewheel', conf, false), function(e, delta) {
 						e.preventDefault();
 						if (delta > 0)
 						{
@@ -3023,7 +3023,7 @@
 		{
 			obj = {
 				'visible': obj,
-				'width': obj, 
+				'width': obj,
 				'height': obj
 			};
 		}
@@ -3526,7 +3526,7 @@
 			i.each(function() {
 				var j = $(this),
 					m = parseInt(j.css(o.d['marginRight']), 10);
-				if (!is_number(m)) 
+				if (!is_number(m))
 				{
 					m = 0;
 				}
@@ -3823,7 +3823,7 @@
 		var x = (is_number(o[o.d['width']])) ? Math.ceil(o[o.d['width']] - ms_getTotalSize(itm, o, 'width')) : 0;
 		switch (o.align)
 		{
-			case 'left': 
+			case 'left':
 				return [0, x];
 			case 'right':
 				return [x, 0];
@@ -4049,8 +4049,8 @@
 			//	 non-responsive -> measure it or set to "variable"
 			else
 			{
-				obj[opt.d['width']] = (ms_hasVariableSizes(itm, opt, 'outerWidth')) 
-					? 'variable' 
+				obj[opt.d['width']] = (ms_hasVariableSizes(itm, opt, 'outerWidth'))
+					? 'variable'
 					: itm[opt.d['outerWidth']](true);
 			}
 		}
@@ -4058,8 +4058,8 @@
 		//	secondary item-size not set -> measure it or set to "variable"
 		if (!obj[opt.d['height']])
 		{
-			obj[opt.d['height']] = (ms_hasVariableSizes(itm, opt, 'outerHeight')) 
-				? 'variable' 
+			obj[opt.d['height']] = (ms_hasVariableSizes(itm, opt, 'outerHeight'))
+				? 'variable'
 				: itm[opt.d['outerHeight']](true);
 		}
 
@@ -4220,7 +4220,7 @@
 			{
 				return false;
 			}
-	
+
 			if (is_string(m))
 			{
 				m = 'carouFredSel'+s+': ' + m;

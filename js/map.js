@@ -1,9 +1,9 @@
-var map_wrapper = 'map_container';	
-var longitude = 45.124099;
-var latitude = -123.113634;
+var map_wrapper = 'map_container';
+var longitude = 4.744124;
+var latitude = -74.042123;
 var bubble_content =	"<p class='map_contacts'>" +
 						"<span>Direccion : </span>" +
-						"Direccion donde se encuentra ubicada la empresa" +
+						"Calle 164 #19-09" +
 						"</p>";
 
 
@@ -12,7 +12,7 @@ var bubble_content =	"<p class='map_contacts'>" +
 
 function initialize() {
 	var mapOptions = {
-		zoom: 13,
+		zoom: 16,
 		center: new google.maps.LatLng(longitude, latitude),
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		mapTypeControl: false,
@@ -28,7 +28,7 @@ function initialize() {
 	var marker = new google.maps.Marker({
 	  position:  new google.maps.LatLng(longitude, latitude),
 	  map: map,
-	  icon     : "img/marker.png"
+	  icon     : "img/marker.svg"
 	});
 
 	var infowindow = new google.maps.InfoWindow({

@@ -25,22 +25,24 @@
 */
 
 
-/*  colors  */
 
-.orange{
-  color: rgb(238,113,35);
+
+
+
+.sec1{
+
+	width: 100%;
+	height: 450px;
+	background: url('../img/sec1.jpg') no-repeat 50% 50%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	   background-size: cover;
+
 }
 
-.green{
-  color: rgb(105,180,48);
-}
 
-.blue{
-  color: rgb(50,78,157);
-}
-.grey{
-  color: rgb(92,92,92);
-}
+
 
 
 
@@ -144,6 +146,14 @@
     font-weight: normal;
     font-style: normal;
 
+}
+
+
+@font-face {
+    font-family: 'glacial';
+    src: url('../fonts/GlacialIndifference-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
@@ -259,7 +269,7 @@
 .hero .caption .btn_details span{
 	display: inline-block;
 	color: #fff;
-	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	letter-spacing: .5px;
 	position: relative;
@@ -351,33 +361,31 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 
 
-
-
 /*    Services    */
 
 .services{
-	padding: 140px 0;
-  background: #e6e6e6;
+	padding: 80px 0;
+  background: rgb(255, 255, 255);
 }
 
 .services .mean_title,
 .services .sub_title{
 	text-align: center;
 	color: #454545;
-	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 }
 
 
 .services .mean_title{
 	font-size: 30px;
-	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
 .services .sub_title{
 	font-size: 22px;
-	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 	font-weight: lighter;
 	text-transform: lowercase;
 }
@@ -387,19 +395,20 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 }
 
 .services .services_list .serv_icon{
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 }
+
 
 .services .services_list p{
 	color: #454545;
-	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 30px;
 }
 
 .services .title{
 	/*color: #454545;*/
-	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -429,7 +438,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	position: relative;
 	text-align: center;
 	color: #454545;
-	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -504,7 +513,19 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	display: table;
 	width: 100%;
 	height: 450px;
-	background: url('../img/fill/2.jpg') no-repeat 50% 50%;
+	background: url('../img/sec2.jpg') no-repeat 50% 50%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	   background-size: cover;
+	text-align: center;
+}
+
+#services{
+	display: table;
+	width: 100%;
+	height: 450px;
+	background: url('../img/sec1.jpg') no-repeat 50% 50%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -518,16 +539,18 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 }
 
 .quote blockquote p{
-	color: #4c4b4b;
-	font-family: "raleway-light", Helvetica, Arial, sans-serif;
-	font-size: 34px;
-	font-weight: lighter;
+	color: #ffffff;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
+	font-size: 46px;
+	font-weight: bold;
 	text-transform: uppercase;
 	margin: 0;
 }
 
+
+
 .quote blockquote .strong{
-	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 	font-weight: bold;
 }
 
@@ -544,9 +567,9 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 .quote .author{
 	display: block;
-	color: #4c4b4b;
-	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	color: #ffffff;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
+	font-size: 34px;
 	letter-spacing: .5px;
 	margin: 20px 0 0 0;
 }
@@ -564,9 +587,35 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 .testimonials{
 	width: 100%;
-	background: #ffffff;
+	background: rgb(50,78,157);
 	padding: 140px 0;
 }
+
+.testimonials .mean_title{
+
+  font-size: 48px;
+	text-align: center;
+	color: #ffffff;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
+
+}
+
+.testimonials .orange{
+
+	text-align: center;
+	color: rgb(238,113,35);
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
+
+}
+
+.testimonials .sub_title{
+	color: #ffffff;
+  text-align: center;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
+
+}
+
+
 
 .testimonials .tesimonial{
 	max-width: 670px;
@@ -591,8 +640,8 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 
 .testimonials .name{
-	color: #2c2c2c;
-	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -600,8 +649,8 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 }
 
 .testimonials p{
-	color: #5b5a5a;
-	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+	color: #ffffff;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 40px;
 	margin: 0;
@@ -609,7 +658,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 .testimonials .author{
 	color: #2c2c2c;
-	font-family: "raleway-semibold", Helvetica, Arial, sans-serif;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	margin: 10px 0 0 0;
@@ -704,19 +753,21 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 .cta .title{
 	color: #454545;
-	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 	font-size: 26px;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .cta .sub_title{
 	color: #454545;
-	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 	font-weight: lighter;
 	font-size: 18px;
 	text-transform: lowercase;
+  margin-bottom: 60px;
 }
 
 .cta .btn_fancy{
@@ -756,7 +807,6 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 .map .shadow{
 	width: 100%;
 	height: 158px;
-	background: url('../img/shadow.png') repeat-x;
 	position: absolute;
 	bottom: -1px;
 	left: 0;
@@ -768,7 +818,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 }
 
 #map_container .map_contacts span{
-	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 	font-weight:bold;
 	text-transform:uppercase;
 }
@@ -786,7 +836,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 footer{
 	padding: 80px 0;
-	background: #00314d;
+	background: rgb(50,78,157);
 
 }
 
@@ -797,7 +847,7 @@ footer .copyrights{
 
 footer .copyrights p{
 	color: #c5c5c5;
-	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	letter-spacing: .5px;
 }
@@ -824,7 +874,7 @@ footer .social ul li a,
 footer .contact{
 	display: inline-block;
 	color: #fff;
-	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+  font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	letter-spacing: 0.5px;
 }
@@ -955,6 +1005,25 @@ footer p{
 		margin-top: 60px;
 	}
 }
+
+
+/*  colors  */
+
+.orange{
+  color: rgb(238,113,35);
+}
+
+.green{
+  color: rgb(105,180,48);
+}
+
+.blue{
+  color: rgb(50,78,157);
+}
+.grey{
+  color: rgb(92,92,92);
+}
+
 
 
 
