@@ -98,6 +98,7 @@ function unhover(element) {
 
 function toggle(element) {
     console.log(element.src);
+    
     var e = element.split(",");
     return e[0];
 }
