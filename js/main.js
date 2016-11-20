@@ -88,16 +88,16 @@ $(document).ready(function() {
 function hover(element) {
   console.log(element.src);
   var x = toggle(element.src);
-    // element.setAttribute('src', x + '.1.svg');
+   element.setAttribute('src', x + ',1.svg');
 }
 function unhover(element) {
     // console.log(element.src);
     var x = toggle(element.src);
-    // element.setAttribute('src', x + '.svg');
+     element.setAttribute('src', x + '.svg');
 }
 
 function toggle(element) {
     console.log(element.src);
-    var e = element.split(".");
-    return e[1];
+    var e = element.split(",");
+    return e[0];
 }
