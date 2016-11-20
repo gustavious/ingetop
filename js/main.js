@@ -86,14 +86,14 @@ $(document).ready(function() {
 
 
 function hover(element) {
-  // console.log(element.src);
+  console.log(element.src);
   var x = toggle(element.src);
-    element.setAttribute('src', x + '.1.svg');
+    // element.setAttribute('src', x + '.1.svg');
 }
 function unhover(element) {
     // console.log(element.src);
     var x = toggle(element.src);
-    element.setAttribute('src', x + '.svg');
+    // element.setAttribute('src', x + '.svg');
 }
 
 function toggle(element) {
