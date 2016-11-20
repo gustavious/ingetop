@@ -87,18 +87,31 @@ $(document).ready(function() {
 
 function hover(element) {
   console.log(element.src);
-  var x = toggle(element.src);
+  var x = toggle(element.src,true);
    element.setAttribute('src', x + ',1.svg');
 }
 function unhover(element) {
     // console.log(element.src);
-    var x = toggle(element.src);
+    var x = toggle(element.src,false);
      element.setAttribute('src', x + '.svg');
 }
 
-function toggle(element) {
+function toggle(element, bool) {
+
+  if(bool){
+
     console.log(element.src);
-    
-    var e = element.split(",");
+
+    var e = element.split(".svg");
     return e[0];
+
+  }
+else{
+  console.log(element.src);
+
+  var i = element.split(",");
+  return i[0];
+}
+
+
 }
