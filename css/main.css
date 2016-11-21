@@ -747,7 +747,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 .cta{
 	background: #ffffff;
 	padding: 140px 0;
-	background: url('../img/cubes.png') repeat;
+	/*background: url('../img/cubes.png') repeat;*/
 	text-align: center;
 }
 
@@ -775,7 +775,12 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 }
 
 
+.center{
+	background: #ffffff;
+	padding: 10px 0;
 
+	text-align: center;
+}
 
 
 
@@ -1024,8 +1029,9 @@ footer p{
   color: rgb(92,92,92);
 }
 
-
-
+.button{
+    background-color: rgb(50,78,157);
+}
 
 
 
@@ -1037,3 +1043,16 @@ footer p{
 		margin-top: -22px;
 	}
 }
+
+@media only screen and (max-width: 700px) {
+    /* For mobile phones: */
+
+    .services .title {
+
+        font-family: "glacial","raleway-regular", Helvetica, Arial, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        /* margin-bottom: 20px; */
+    }
+    }

@@ -2,7 +2,7 @@ var map_wrapper = 'map_container';
 var longitude = 4.744124;
 var latitude = -74.042123;
 var bubble_content =	"<p class='map_contacts'>" +
-						"<span>Direccion : </span>" +
+						"<span>Dirección : </span>" +
 						"Calle 164 #19-09" +
 						"</p>";
 
